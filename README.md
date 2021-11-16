@@ -24,6 +24,7 @@
 <h2 align="center">Funcionalidades 🛠️</h2>
 
    <p>
+   
 ### Área Pública
 > - Visualizar viagens diponíveis.
 > - Candidatar-se a uma viagem.
