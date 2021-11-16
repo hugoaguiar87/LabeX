@@ -50,4 +50,3 @@
  
  ---
  
-<h2 align="center">Imagens da aplicação</h2>
