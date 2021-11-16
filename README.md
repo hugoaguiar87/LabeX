@@ -41,7 +41,7 @@
 
 <p>
 
-> - [CLIQUE AQUI](https://shocking-fruit.surge.sh/login)
+> - [CLIQUE AQUI](https://vha-labex.surge.sh/)
   
   Para acessar a página privada, pode usar os dados de login abaixo:<br>
   Email: astrodev@gmail.com<br>
