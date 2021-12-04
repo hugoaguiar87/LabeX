@@ -38,15 +38,4 @@ export const Trip = styled.div`
         text-overflow: ellipsis;
         overflow: hidden;
     }
-
-    /* div{
-        display: flex;
-        flex-direction: column;
-        gap: 5px;
-
-        p{
-            width: 100%;
-            text-overflow: ellipsis;
-        }
-    } */
 `
