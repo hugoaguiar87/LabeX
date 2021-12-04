@@ -15,10 +15,10 @@ const ListTripsPage = () =>{
                 <text><b>Planeta:</b> {trip.planet}</text>
                 <text><b>Duração:</b> {trip.durationInDays} dias</text>
                 <text><b>Data:</b> {trip.date}</text>
-                <div>                
-                    <text><b>Descrição:</b></text>
-                    <text> {trip.description}</text>
-                </div>
+                            
+                <text><b>Descrição:</b></text>
+                <p> {trip.description}</p>
+            
             </Trip>
         )
     })
@@ -35,12 +35,12 @@ const ListTripsPage = () =>{
             </Header>
             <Main>
                 <h1>Viagens Disponíveis</h1>
-                <div>
-                    {result.isLoading && <p>Carregando...</p>}
-                    {!result.isLoading && result.error && <p>Ocorreu um erro!</p>}
-                    {!result.isLoading && result.data.trips && result.data.trips.length > 0 && listTrips}
-                    {!result.isLoading && result.data.trips && result.data.trips.length === 0 && (<p>Não há viagens disponíveis!</p>)}
-                </div>
+                
+                {result.isLoading && <p>Carregando...</p>}
+                {!result.isLoading && result.error && <p>Ocorreu um erro!</p>}
+                {!result.isLoading && result.data.trips && result.data.trips.length > 0 && listTrips}
+                {!result.isLoading && result.data.trips && result.data.trips.length === 0 && (<p>Não há viagens disponíveis!</p>)}
+            
             </Main>
         </>
     )
